@@ -7,4 +7,10 @@
     <string name="option_mismatch">diferente</string>
     <string name="option_gap">pulo</string>
 
+    <string name="change_option_apply">Aplicar</string>
+    <string name="change_option_cancel">Cancelar</string>
+    <string name="change_match_title">Escolha um novo valor para iguais</string>
+    <string name="change_mismatch_title">Escolha um novo valor para diferentes</string>
+    <string name="change_gap_title">Escolha um novo valor para pulos</string>
+
 </resources>

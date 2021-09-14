@@ -10,4 +10,19 @@
         <item name="android:navigationBarColor">?attr/base_slot_1</item>
     </style>
 
+    <style name="ChangeOptionValueDialogStyle"
+        parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">?attr/support_slot_1</item>
+        <item name="android:textColorPrimary">?attr/support_slot_1</item>
+        <item name="android:background">?attr/base_slot_1</item>
+    </style>
+
+    <style name="ChangeOptionValueNumberPickerStyle"
+        parent="Theme1.NeedlemanWunschAlgorithmVisualizer">
+        <item name="android:textColorPrimary">?attr/support_slot_1</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="colorControlNormal">?attr/support_slot_1</item>
+    </style>
+
 </resources>
