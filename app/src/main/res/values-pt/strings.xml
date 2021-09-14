@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name_short">NWAV</string>
+    <string name="app_name">Visualisador do Algoritmo de Needleman Wunsch</string>
+</resources>
