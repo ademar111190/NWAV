@@ -1,4 +1,10 @@
 <resources>
+
     <string name="app_name_short">NWAV</string>
     <string name="app_name">Visualisador do Algoritmo de Needleman Wunsch</string>
+
+    <string name="option_match">igual</string>
+    <string name="option_mismatch">diferente</string>
+    <string name="option_gap">pulo</string>
+
 </resources>
