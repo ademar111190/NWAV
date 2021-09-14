@@ -9,7 +9,7 @@
         android:id="@+id/appbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimaryDark"
+        android:background="?attr/base_slot_1"
         android:fitsSystemWindows="true">
 
         <androidx.appcompat.widget.Toolbar
@@ -19,7 +19,9 @@
             android:layout_weight="1"
             android:fitsSystemWindows="true"
             app:subtitle="@string/app_name"
-            app:title="@string/app_name_short" />
+            app:subtitleTextColor="?attr/support_slot_1"
+            app:title="@string/app_name_short"
+            app:titleTextColor="?attr/support_slot_1" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -33,9 +35,10 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="16dp"
             android:background="@drawable/bg_option_match_button"
             android:text="@string/option_match"
+            android:textColor="?attr/support_slot_1"
             app:layout_constraintEnd_toStartOf="@+id/option_mismatch"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -44,9 +47,10 @@
             android:id="@+id/option_mismatch"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="16dp"
             android:background="@drawable/bg_option_mismatch_button"
             android:text="@string/option_mismatch"
+            android:textColor="?attr/support_slot_1"
             app:layout_constraintEnd_toStartOf="@+id/option_gap"
             app:layout_constraintStart_toEndOf="@+id/option_match"
             app:layout_constraintTop_toTopOf="parent" />
@@ -55,10 +59,11 @@
             android:id="@+id/option_gap"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/bg_option_gap_button"
             android:text="@string/option_gap"
+            android:textColor="?attr/support_slot_1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/option_mismatch"
             app:layout_constraintTop_toTopOf="parent" />

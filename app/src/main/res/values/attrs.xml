@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="base_slot_1" format="color|reference" />
+    <attr name="support_slot_1" format="color|reference" />
+    <attr name="support_slot_2" format="color|reference" />
+    <attr name="highlight_slot_1" format="color|reference" />
+
+</resources>
