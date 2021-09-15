@@ -3,9 +3,9 @@
     <string name="app_name_short">NWAV</string>
     <string name="app_name">Needleman Wunsch Algorithm Visualizer</string>
 
-    <string name="option_match">match</string>
-    <string name="option_mismatch">mismatch</string>
-    <string name="option_gap">gap</string>
+    <string name="option_match">match: %d</string>
+    <string name="option_mismatch">mismatch: %d</string>
+    <string name="option_gap">gap: %d</string>
 
     <string name="change_option_apply">Apply</string>
     <string name="change_option_cancel">Cancel</string>

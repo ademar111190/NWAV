@@ -6,12 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.NumberPicker
-import androidx.annotation.StringRes
 import androidx.appcompat.app.AlertDialog
 
 class ChangeOption(
     private val context: Context,
-    @StringRes private val title: Int,
+    private val title: String,
     private val range: ChangeOptionRange,
     private val callback: (Int) -> Unit,
 ) {
